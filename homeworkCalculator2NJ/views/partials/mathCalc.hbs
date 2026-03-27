@@ -1,0 +1,13 @@
+<form method="POST" action="/calculate">
+    <input type="text" name="number1" placeholder="Enter first number" value="{{number1}}">
+    
+    <input type="radio" name="operation" value="add"> +
+    <input type="radio" name="operation" value="sub"> -
+    <input type="radio" name="operation" value="mul"> ×
+    <input type="radio" name="operation" value="div"> ÷
+    <input type="radio" name="operation" value="mod"> mod
+
+    <input type="text" name="number2" placeholder="Enter second number" value="{{number2}}">
+    
+    <button type="submit">Calculate</button>
+</form>
